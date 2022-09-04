@@ -11,6 +11,7 @@ import LoadingSpinner from './components/UI/LoadingSpinner';
 const NewQuote = React.lazy(() => import('./pages/NewQuote'));
 const QuoteDetail = React.lazy(() => import('./pages/QuoteDetail'));
 const NotFound = React.lazy(() => import('./pages/NotFound'));
+// fina ma na3mla lazy iza hye el initial page deyman..ani iza kenet el home
 const AllQuotes = React.lazy(() => import('./pages/AllQuotes'));
 
 
